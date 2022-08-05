@@ -1,0 +1,17 @@
+.sidebar{
+    width:10rem;
+    height: 25vh;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: left;
+    padding: 1rem;
+}
+
+.iconbar{
+    display: flex;
+    gap: 0.7rem;;
+}

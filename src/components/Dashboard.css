@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.parent-container {
+    display: flex;
+}
+.colour{
+     background-color:rgb(231, 226, 226);
+     padding:0.4rem;
+}
+
+.nav-contain {
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.second-cont{
+    background-color:white;
+    padding: 0.3rem;
+}
+
+.order-btn {
+    float: left;
+    display: flex;
+    float: left;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 1rem;
+    width: 5rem;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 1rem;
+    width: 5rem;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border: none;
+    color: rgb(101, 101, 235);
+}
+
+.iconb {
+    font-size: 0.7rem;
+    margin-top: .1rem;
+}
+
+.pending {
+    padding-bottom: .7rem;
+    border-bottom: 1px solid
+}
+/* .contain{
+    background-color:rgb(180, 174, 174);
+} */
+
+
+ul {
+    list-style-type: none;
+}
+
+
+.second-bar {
+    display: flex;    
+    gap: .6rem;
+    margin-top: 2rem;
+}
+
+
+.third-bar {
+    border: 2px solid;
+    padding: .6rem;
+    padding-bottom: .4rem;
+    font-size: .9rem;
+}
+
+
+.third-bar {
+    display: flex;
+    gap: 0.7rem;
+}
+
+.setting{
+    float:right;
+    margin-left: 22rem;
+    padding:1rem;
+}
+
+.refresh-bar{
+    border: 2px solid;
+    background-color: rgb(12, 102, 175);
+    padding: .6rem;
+    padding-bottom: .4rem;
+    font-size: .9rem;
+    color: wheat;
+
+}
+
+.refresh-bar{
+    float:right;
+    margin-left: 45rem;
+    display: flex;
+    gap: 0.7rem;
+}
+
+.main-bar{
+    display: grid;
+    /* grid-template-columns: repeat(7, 1fr); */
+    grid-template-rows: repeat(4,4rem);
+}
+
+.main-bar .child{
+    display: grid;    
+    height: 10vh;
+
+    grid-template-columns: 12rem 8rem 8rem 8rem 1fr 5rem 8rem 10rem;
+    border-bottom: 1px solid;
+    align-items: center;
+    gap: .3rem;
+
+}
+
+
+.box-7{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.panting{
+    text-align: left;
+}
+
+.pending{
+    border-color: rgb(129, 228, 129);
+    border: 1px solid ;
+    color: green;
+    padding: 0.3rem;
+    background-color:white;
+}
+.pending-1{
+    color: rgb(7, 79, 146);
+    border-bottom:2px solid;
+    padding-bottom: 0.8rem;
+}
+
+.operation-acrion{
+    text-align: center;
+}
+
+.aaa{
+    text-align: right;
+}
+.channel-name{
+    margin-right: .9rem;
+}
+.bag-1{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1.5rem;
+    padding-left: 5px;
+}
+.bagImg{
+    width:2rem;
+}
+.one{
+    border-color: rgb(66, 170, 211);
+    color: rgb(66, 170, 211);
+    border: 1px solid
+}
+
+.row-1{
+    text-align: left;
+    font-size: .8rem;
+    color:blue;
+}
+
+.date{
+    text-align: left;
+    font-size: .8rem;
+
+}
+
+.name{
+    text-align: left;
+    font-size: .8rem;
+
+}
+
+.personname{
+    text-align: left;
+    font-size: .8rem;
+
+}
+
+.value{
+    text-align: left;
+    font-size: .8rem;
+
+}
+
+.pending{
+    font-size: .8rem;
+}
+.action{
+    text-align: center;
+    font-size: .8rem;
+}
+
+.order-status{
+    padding-left:2px;
+    font-size: .9rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    border-left: 1px solid
+}
+
+.footbar{
+    text-align: right;
+    display: flex;
+    justify-content:end;
+    gap: 0.7rem;
+    margin-top: 0.5rem;
+}
+.left{
+    padding:0.6rem;
+}
+
+
