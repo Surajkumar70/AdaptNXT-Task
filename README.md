@@ -1,11 +1,6 @@
 # Task Photo
-[Uploading Screenshot from 2022-08-05 18-16-43.png-52:-37:85:47…]()
 
-
-
-
-
-
+ file:///home/vishal/Pictures/Screenshots/Screenshot%20from%202022-08-05%2018-16-43.png
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
